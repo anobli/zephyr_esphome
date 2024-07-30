@@ -1,0 +1,7 @@
+#zephyr_library_sources(
+#  sensor_entity.c
+#)
+
+zephyr_library_sources_ifdef(CONFIG_ESPHOME_COMPONENT_API sensor.c)
+zephyr_library_sources_ifdef(CONFIG_ESPHOME_COMPONENT_SENSOR_TIMESTAMP timestamp.c)
+zephyr_library_sources_ifdef(CONFIG_ESPHOME_COMPONENT_SENSOR_TEMPERATURE temperature.c)
