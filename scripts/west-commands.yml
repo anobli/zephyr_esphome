@@ -1,0 +1,6 @@
+west-commands:
+  - file: scripts/west_pb_crpc.py
+    commands:
+      - name: pb-crpc
+        class: CRPCWestCommand
+        help: Generate RPC and useful functions from protobuf files
