@@ -6,4 +6,5 @@ build:
   cmake: .
   settings:
     dts_root: .
+    board_root: .
     module_ext_root: .
