@@ -2,4 +2,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+rsource "drivers/gpio/Kconfig"
 rsource "subsys/net/lib/esphome/Kconfig"
