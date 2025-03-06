@@ -1,0 +1,13 @@
+logger: {}
+esphome:
+  name: HelloWorld
+  on_boot:
+    then:
+      - logger.log: "Hello World"
+  on_loop:
+    then:
+      - logger.log: "Looping ..."
+      - delay: 1s
+
+zephyr:
+  board: native_sim

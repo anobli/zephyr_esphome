@@ -1,0 +1,4 @@
+coverage
+jinja2
+pyyaml
+dataclass_wizard
