@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/zephyrproject-rtos
     - name: anobli
       url-base: https://github.com/anobli/
+    - name: esphome
+      url-base: https://github.com/esphome/
 
   projects:
     - name: zephyr
@@ -20,3 +22,7 @@ manifest:
       revision: a41892bb04cbd9fad18e32953c3fb1498f93ce70
       path: modules/lib/protobuf-c
       remote: anobli
+    - name: esphome
+      revision: 2024.12.4
+      path: modules/lib/esphome
+      remote: esphome

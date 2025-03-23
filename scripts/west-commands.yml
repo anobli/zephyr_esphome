@@ -1,0 +1,11 @@
+west-commands:
+  - file: scripts/west_esphome.py
+    commands:
+      - name: esphome
+        class: ESPHomeWestCommand
+        help: utility command to build and flash ESPHome device
+  - file: scripts/west_pb_crpc.py
+    commands:
+      - name: pb-crpc
+        class: CRPCWestCommand
+        help: Generate RPC and useful functions from protobuf files

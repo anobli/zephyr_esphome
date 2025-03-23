@@ -1,0 +1,9 @@
+logger: {}
+esphome:
+  name: HelloWorld
+  on_boot:
+    then:
+      - logger.log: "Hello World"
+
+zephyr:
+  board: esp32c3_devkitm
